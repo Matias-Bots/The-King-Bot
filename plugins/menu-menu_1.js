@@ -67,7 +67,7 @@ let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 let texto1 = `╭═─═─═─═─═─═╮
-║   𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 - 𝙼𝙳
+║   𝚃𝙷𝙴 𝙺𝙸𝙽𝙶 - 𝙱𝙾𝚃
 ║╰═─═─═─═─══╯
 ┠╮
 ║- 𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}
@@ -341,7 +341,7 @@ message: wm,
 orderTitle: 'WaBot',
 thumbnail: imagen2, 
 sellerJid: '0@s.whatsapp.net' }}}}      
-const owner = "5219992095479@s.whatsapp.net"
+const owner = "595985958156@s.whatsapp.net"
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
@@ -356,19 +356,19 @@ jpegThumbnail: imagen1,
 caption: texto1,
 fileLength: "99999999999999",
 mentions:[m.sender, owner],
-footer: `𝔹𝕪 𝔹𝕣𝕦𝕟𝕠 𝕊𝕠𝕓𝕣𝕚𝕟𝕠`,
+footer: `By Matías`,
 buttons: buttons,
 headerType: 4,   
 contextInfo: {
 "mentionedJid": [m.sender, owner],
 "externalAdReply": {
 "showAdAttribution": false,
-"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
+"title": ``,
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": imagen3,
-"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
-"sourceUrl": 'https://www.pornhub.com' }}} 
+"mediaUrl": '',
+"sourceUrl": 'https://instagram.com/matiass.zzz' }}} 
 conn.sendMessage(m.chat, buttonMessage, fake)}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
